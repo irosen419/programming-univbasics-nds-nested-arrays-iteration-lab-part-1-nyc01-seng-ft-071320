@@ -7,8 +7,9 @@ def find_even_values(src)
       if src[counter][element_counter].even?
         p src[counter][element_counter]
       end
+      element_counter += 1
     end
-
+    counter += 1
   end
 
 end
