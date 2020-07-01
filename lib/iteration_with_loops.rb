@@ -3,7 +3,7 @@ def find_even_values(src)
 
   while counter < src.length
     element_counter = 0
-    while element_counter < src[counter]
+    while element_counter < src[counter].length
       if src[counter][element_counter].even?
         p src[counter][element_counter]
       end
